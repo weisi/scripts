@@ -16,7 +16,8 @@
 #   cliofetion from AUR
 #
 
-FETION_DATAFILE=data/fetion.var
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+FETION_DATAFILE=$DIR/data/fetion.var
 
 FETION_NUMBER=
 FETION_PASSWORD=
