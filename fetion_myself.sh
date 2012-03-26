@@ -37,4 +37,4 @@ fi
 
 test "$*" != '' && ( cliofetion -f $FETION_NUMBER -p $FETION_PASSWORD -t $FETION_NUMBER -d "$@"; exit 0)
 
-cliofetion -f $FETION_NUMBER -p $FETION_PASSWORD -t $FETION_NUMBER -d "$FETION_DEFAULT_MESSAGE"
+test "$*" != '' || cliofetion -f $FETION_NUMBER -p $FETION_PASSWORD -t $FETION_NUMBER -d "$FETION_DEFAULT_MESSAGE"
