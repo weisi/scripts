@@ -52,6 +52,7 @@ EOF
 
 else
 
+    rm "$TMPFILE"
     echo "gpghtml: gpg failed to sign the file"
     return 125
 
